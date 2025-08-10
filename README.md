@@ -1,16 +1,63 @@
-# bmi_calculator
 
-A new Flutter project.
 
-## Getting Started
 
-This project is a starting point for a Flutter application.
 
-A few resources to get you started if this is your first Flutter project:
+# 🧮 BMI Calculator
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+تطبيق Flutter لحساب مؤشر كتلة الجسم (BMI) مع واجهة تفاعلية وتصميم جميل.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 📌 فكرة المشروع
+المستخدم يحدد جنسه (ذكر أو أنثى)، ويُدخل طوله ووزنه، ثم يحصل على:
+- قيمة مؤشر كتلة الجسم.
+- الحالة الصحية (طبيعي، وزن زائد، أو نقص وزن).
+- نص إرشادي حسب الجنس
+```
+
+
+## 📂 هيكل الملفات
+
+```
+lib/
+main.dart              ← ملف تشغيل التطبيق
+input\_page.dart        ← صفحة إدخال البيانات
+results\_page.dart      ← صفحة عرض النتائج
+calculator\_brain.dart  ← الحسابات
+constants.dart         ← القيم والألوان الثابتة
+```
+
+
+## ⚙️ المزايا
+```
+- اختيار الجنس مع لون مخصص.
+- سلايدر لتغيير الطول.
+- أزرار لزيادة/إنقاص الوزن.
+- صفحة نتائج مفصلة مع زر لإعادة الحساب.
+- تنقل بين الصفحات باستخدام `Navigator`.
+```
+
+## 🚀 التشغيل
+1. تأكد من تثبيت Flutter على جهازك.
+2. افتح المشروع في VS Code أو Android Studio.
+3. شغّل الأمر:
+   ```bash
+   flutter run
+````
+
+## 📷 لقطات شاشة
+
+![WhatsApp Image 2025-08-10 at 10 17 56 PM (2)](https://github.com/user-attachments/assets/0ed4d8c0-1bdb-4276-a5ad-85dc582f7e76)
+![WhatsApp Image 2025-08-10 at 10 17 56 PM (1)](https://github.com/user-attachments/assets/bc99c70b-afd5-40a4-9ab9-8dea15d53b8f)
+![WhatsApp Image 2025-08-10 at 10 17 56 PM](https://github.com/user-attachments/assets/762e9d58-1cdb-45db-831f-67f7799e88c5)
+
+
+
+---
+
+💡 المشروع مبني لغرض التعلم والتدريب على Flutter ويدعم التطوير المستقبلي بإضافة مميزات جديدة.
+
+```
+
+بهذا الشكل، أي شخص يفتح مشروعك رح يفهم فورًا وظيفته وكيف يشغله.  
+
+تحب أكتب لك هذا الملف وأرفقه مع المشروع بدل النص الافتراضي؟
+```
